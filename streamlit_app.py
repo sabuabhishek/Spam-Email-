@@ -13,8 +13,8 @@ st.set_page_config(
 # Load the model and vectorizer
 @st.cache_resource
 def load_model():
-    model_path = r'C:\Users\ACER\Desktop\Spam or ham prjct\model.pkl'
-    vectorizer_path = r'C:\Users\ACER\Desktop\Spam or ham prjct\vectorizer.pkl'
+    model_path = r'C:\Users\ACER\Desktop\STREAMLIT SPAM EMAIL\model.pkl'
+    vectorizer_path = r'C:\Users\ACER\Desktop\STREAMLIT SPAM EMAIL\vectorizer.pkl'
     
     # Debug information
     if not os.path.exists(model_path):
